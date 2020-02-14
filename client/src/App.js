@@ -63,12 +63,12 @@ function App() {
       contract.methods.admin().call(),
       contract.methods.currentState().call(),
     ]);
-    setBet({count: bet[0], size: bet[1], admin: bet[2], state: parseInt(bet[3])});
+    await setBet({count: bet[0], size: bet[1], admin: bet[2], state: parseInt(bet[3])});
   }
 
   async function updatePlayers() {
     const players = await contract.methods.getPlayers().call();
-    setPlayers(players);
+    await setPlayers(players);
   }
 
   async function createBet(e) {

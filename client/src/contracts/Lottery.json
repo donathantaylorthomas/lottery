@@ -6801,12 +6801,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xF0d57138F33F3402f6A78e1AF1224a2eDab2E9FF",
-      "transactionHash": "0xeef0a012a3f0fd9d1fd2c6b4cdef7a40beecca72dbc65b8e0b89bf7327728410"
+      "address": "0x614024654d7e1979A5888618cBD668842EB647a4",
+      "transactionHash": "0x85395e3bde677939ab007c0602133e7e42cfef89da2e7d8098de642ba24a738d"
     }
   },
   "schemaVersion": "3.0.20",
-  "updatedAt": "2020-02-13T14:41:34.558Z",
+  "updatedAt": "2020-02-14T00:19:55.702Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
